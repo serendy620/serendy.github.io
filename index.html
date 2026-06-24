@@ -48,7 +48,7 @@
     .hero-keywords { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; }
     .keyword { background: var(--bg-card); border: 1px solid var(--border); color: var(--accent-dark); font-size: 0.78rem; font-weight: 500; padding: 0.3rem 0.85rem; border-radius: 999px; letter-spacing: 0.03em; }
     
-    .hero-desc { font-size: 1rem; color: var(--text-muted); max-width: 620px; margin-bottom: 2.2rem; line-height: 1.8; text-align: justify; }
+    .hero-desc { font-size: 1rem; color: var(--text-muted); max-width: 560px; margin-bottom: 2.2rem; line-height: 1.8; text-align: justify; }
     .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
     .btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.75rem 1.6rem; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.25s; cursor: pointer; border: none; }
     .btn-primary { background: var(--accent); color: #fff; }
@@ -102,11 +102,6 @@
     .pub-link-btn { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.75rem; font-weight: 600; color: var(--accent); text-decoration: none; transition: color 0.2s; }
     .pub-link-btn:hover { color: var(--accent-dark); text-decoration: underline; }
 
-    /* CV */
-    #cv { background: var(--bg); text-align: center; }
-    .cv-box { max-width: 560px; margin: 0 auto; background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 3rem 2rem; }
-    .cv-box p { color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem; }
-
     /* FOOTER */
     footer { background: var(--text); color: rgba(255,255,255,0.5); text-align: center; padding: 2rem; font-size: 0.8rem; }
     footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
@@ -131,8 +126,6 @@
     <li><a href="#home">Home</a></li>
     <li><a href="#research">Research</a></li>
     <li><a href="#publications">Publications</a></li>
-    <li><a href="#cv">CV</a></li>
-    <li><a href="https://www.linkedin.com/in/serendy620/" target="_blank" style="color: var(--accent); font-weight: 700;">LinkedIn</a></li>
   </ul>
 </nav>
 
@@ -157,7 +150,8 @@
       </p>
       <div class="hero-actions">
         <a href="#research" class="btn btn-primary">Explore My Research</a>
-        <a href="#cv" class="btn btn-outline">Download CV</a>
+        <a href="assets/JIYOUNG_CV.pdf" class="btn btn-outline" download>Download CV</a>
+        <a href="https://www.linkedin.com/in/serendy620/" target="_blank" class="btn btn-outline">LinkedIn</a>
       </div>
     </div>
     <div class="hero-photo-img fade-up" style="transition-delay:0.2s">
